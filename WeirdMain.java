@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.*;
 
-public class WeirdMain {
+class WeirdHelloWorld {
     public static void main(String... args) {
         ExecutorService exec = Executors.newSingleThreadExecutor();
         final Integer x = 42;
